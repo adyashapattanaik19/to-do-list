@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Task List <img src="To-Do-Img/images/icon.png"></h1>
+        
+        <form id="new-task-form">
+            <input
+            type="text"
+            name="new-task-input"
+            id="new-task-input"
+            placeholder="What do you have planned?"/>
+            
+            <input
+            type="submit"
+            id="new-task-submit"
+            value="Add task"/>
+        </form>
+    </header>
+    <main>
+        <section class="task-list">
+            <div id="tasks">
+                
+                <table id="task-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Task</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="task-table-body">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
